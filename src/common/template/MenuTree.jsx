@@ -6,15 +6,16 @@ export default props => (
             <a href='#'>
                 <i className={`fa fa-${props.icon}`}></i>
                 <span>{props.label}</span>
-                <span className="pull-right-container">
-                    <span className="label label-primary pull-right">4</span>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
                 </span>
             </a>
             <ul className='treeview-menu'>
-                <li><a href="pages/layout/top-nav.html"><i className="fa fa-circle-o"></i> Top Navigation</a></li>
+                {/* <li><a href="pages/layout/top-nav.html"><i className="fa fa-circle-o"></i> Top Navigation</a></li>
                 <li><a href="pages/layout/boxed.html"><i className="fa fa-circle-o"></i> Boxed</a></li>
                 <li><a href="pages/layout/fixed.html"><i className="fa fa-circle-o"></i> Fixed</a></li>
-                <li><a href="pages/layout/collapsed-sidebar.html"><i className="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+                <li><a href="pages/layout/collapsed-sidebar.html"><i className="fa fa-circle-o"></i> Collapsed Sidebar</a></li> */}
+                {props.children}
             </ul>
         </li>
     </ul>

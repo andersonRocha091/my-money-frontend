@@ -3,10 +3,15 @@ import React from 'react';
 
 import Header from '../common/template/Header';
 import Sidebar from '../common/template/Sidebar';
-export default props =>(
+import Footer from '../common/template/Footer';
+
+export default props => (
   <div>
-    <Header/>
-    <Sidebar/>
+    <Header />
+    <Sidebar />
+    <div class="content-wrapper">
+    </div>
+    <Footer />
   </div>
 )
 
