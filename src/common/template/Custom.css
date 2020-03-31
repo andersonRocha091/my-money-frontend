@@ -1,0 +1,10 @@
+.main-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.content-wrapper{
+    position:fixed;
+    top:50px;
+    width:100%;
+}
