@@ -8,3 +8,14 @@
     top:50px;
     width:100%;
 }
+
+button{
+    margin-left: 5px;
+}
+
+.nav-tabs-custom{
+    width:1105px;
+}
+.table-actions{
+    width:150px;
+}
